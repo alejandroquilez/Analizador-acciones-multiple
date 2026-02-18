@@ -6,7 +6,8 @@ Programa en Python que, a partir de un input de varias acciones, analiza su reto
 
 - Análisis simultáneo de n acciones.
 - Cálculo del retorno mensual.
-- Identificación de mejor y peor acción.
+- Cálculo del Sharpe Ratio
+- Identificación de mejor y peor acción, y del mejor Sharpe Ratio.
 - Gráfico de resultados con código de colores.
 
 ## Tecnologías
@@ -35,13 +36,14 @@ El programa pedirá 5 tickers (símbolos de acciones). Ejemplo:
 ```
 
 --- Resultados Mensuales ---
-1. AAPL: -1.52 %
-2. MSFT: -12.64 %
-3. TSLA: -4.95 %
-4. NVDA: -0.18 %
-5. GOOGL: -8.97 %
-La mejor acción ha sido NVDA, con un retorno del -0.18%.
-La peor acción ha sido MSFT, con un retorno del -12.64%.
+1. AAPL: +7.44 % | Sharpe Ratio: 3.75
+2. MSFT: -11.80 % | Sharpe Ratio: -3.89
+3. TSLA: -1.45 % | Sharpe Ratio: -0.60
+4. NVDA: +6.13 % | Sharpe Ratio: 2.37
+5. GOOGL: -5.79 % | Sharpe Ratio: -4.35
+La mejor acción ha sido AAPL, con un retorno del +7.44%.
+La peor acción ha sido MSFT, con un retorno del -11.80%.
+Mejor Sharpe ratio: AAPL (3.75) <== Mejor relación riesgo/retorno
 
 ![Gráfico de Comparación](Figure_1.png)
 
